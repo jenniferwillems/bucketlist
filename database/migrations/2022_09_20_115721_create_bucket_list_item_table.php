@@ -13,13 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('items', function (Blueprint $table) {
+        Schema::create('websites', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->integer('prio')->nullable();
             $table->text('description')->nullable();
-            $table->dateTime('completed_at')->nullable();
-            $table->timestamps();
         });
     }
 

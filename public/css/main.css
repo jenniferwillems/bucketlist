@@ -1,0 +1,67 @@
+.navbar{
+    background-color: #1a202c;
+}
+.navbar_menu{
+    display: flex;
+}
+.navbar_menu svg{
+    width: 40px;
+    height: 40px;
+}
+.btn:first-child{
+    background-color: #1a202c; !important;
+    border: none;
+}
+.btn:first-child:hover{
+    background-color: #1a202c; !important;
+    border: none;
+}
+body .py-4{
+    padding: 0!important;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    background-color: #335c7d;
+    width: 100%;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.description{
+    color: white;
+    width: 50%;
+}
+.description_img{
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.carousel{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.carousel-inner{
+    width: 500px !important;
+}
+.carousel-description{
+    background-color: #1a202c;
+}
+.carousel-buttons {
+    color: black;
+}
+footer{
+    background-color: #1a202c;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer a{
+   text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: white;
+}
